@@ -130,7 +130,11 @@ function setup() {
 
 	// Log on request
 	app.get("/", (req, res) => {
-		res.sendStatus(404)
+		if (REDIRECT_TO) {
+			res.redirect(REDIRECT_TO)
+		} else {
+			res.sendStatus(404)
+		}
 
 		const thisId = onId
 		onId += 1
