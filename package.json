@@ -1,0 +1,23 @@
+{
+	"dependencies": {
+		"cookie-parser": "^1.4.6",
+		"express": "^4.18.1"
+	},
+	"name": "log-it",
+	"description": "",
+	"version": "1.0.0",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Timothy-Gonzalez/log-it.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Timothy-Gonzalez/log-it/issues"
+	},
+	"homepage": "https://github.com/Timothy-Gonzalez/log-it#readme"
+}
